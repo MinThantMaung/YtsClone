@@ -9,6 +9,7 @@ import Link from "next/link";
 import Pagination from "@/app/pagination/pagination";
 import Loading from "@/app/loading/loading";
 
+
 const Page = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const {useGetMoviesList} = useMovies()
