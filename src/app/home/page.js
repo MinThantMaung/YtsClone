@@ -14,8 +14,7 @@ const Page = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const {useGetMoviesList} = useMovies()
     const {
-        data: movies, isLoading, isError, isSuccess, isFetching,
-        isPreviousData
+        data: movies, isLoading, isSuccess
     } = useGetMoviesList(currentPage)
     const totalPages = 999999;
 
