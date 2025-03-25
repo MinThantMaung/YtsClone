@@ -16,7 +16,10 @@ export default function RootLayout({children}) {
     return (
         <QueryClientProvider client={queryClient}>
             <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+            {children}
+            <SpeedInsights />
+            </body>
             </html>
         </QueryClientProvider>
     )
