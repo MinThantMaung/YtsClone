@@ -5,6 +5,7 @@ import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
 
 const inter = Inter({subsets: ['latin']})
 const queryClient = new QueryClient()
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const metadata = {
     title: 'Create Next App',
