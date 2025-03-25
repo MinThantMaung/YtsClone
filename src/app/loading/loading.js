@@ -5,10 +5,8 @@ import Image from "next/image";
 
 const Loading = () => {
     return (
-        <div className="w-full h-screen bg-black">
-            <div className="flex justify-center items-center pt-80 sm:pt-96 sm:ml-0">
-                <Image src={loading} alt=""/>
-            </div>
+        <div className="w-screen h-screen bg-black flex justify-center items-center">
+            <Image src={loading} alt=""/>
         </div>
     );
 };
